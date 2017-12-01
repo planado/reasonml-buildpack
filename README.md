@@ -11,16 +11,7 @@ Node buildpacks, placed in last position.
 
 #### Heroku CLI
 
-First, check your Heroku app has the Ruby and Node buildpacks added, in the command line run:
-
-    heroku buildpacks
-
-If they are added you should see:
-
-    your-app-1234 Buildpack
-    1. heroku/nodejs
-    2. heroku/ruby
-
+First, check your environment has bs-platform installed (e.g., with npm or yarn).
 To add the Webpack Rails buildpack in the last index, run this command:
 
     heroku buildpacks:add --index 3 https://github.com/reasonml/reasonml-buildpack.git
