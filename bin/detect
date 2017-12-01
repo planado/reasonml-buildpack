@@ -1,0 +1,13 @@
+#!/bin/sh
+# -*- shell-script -*-
+
+# Assume this project uses webpack-rails gem if it depends
+# on the webpack-rails gem (or just mentions it).
+#
+# `grep` will set the significant exit code accordingly.
+
+echo "reasonml"
+
+build_dir=$1
+
+grep 'bs-platform' < $build_dir/package.json > /dev/null
