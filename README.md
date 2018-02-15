@@ -14,7 +14,7 @@ Node buildpacks, placed in last position.
 First, check your environment has bs-platform installed (e.g., with npm or yarn).
 To add the Webpack Rails buildpack in the last index, run this command:
 
-    heroku buildpacks:add --index 3 https://github.com/reasonml/reasonml-buildpack.git
+    heroku buildpacks:add --index 3 https://github.com/planado/reasonml-buildpack.git
 
 ## Usage
 
