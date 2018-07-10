@@ -23,8 +23,8 @@ export_env_dir() {
 
 export_env_dir
 
-echo "-----> npm link bs-platform"
-npm link bs-platform
+echo "-----> yarn link bs-platform"
+yarn link bs-platform
 echo "-----> bsb -clean-world"
 bsb -clean-world
 echo "-----> bsb -make-world"
